@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.justice-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.justice-list-item {
+  border: 1px solid #ccc; /* Add border around each item */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #979191;
+}
