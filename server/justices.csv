@@ -1,0 +1,122 @@
+name,state_appointed_from,president_appointed_by,date_service_start,date_service_end,rank
+"Rutledge, John",South Carolina,Washington,"February 15, 1790","March 5, 1791",associate
+"Cushing, William",Massachusetts,Washington,"February 2, 1790","September 13, 1810",associate
+"Wilson, James",Pennsylvania,Washington,"October 5, 1789","August 21, 1798",associate
+"Blair, John",Virginia,Washington,"February 2, 1790","October 25, 1795",associate
+"Iredell, James",North Carolina,Washington,"May 12, 1790","October 20, 1799",associate
+"Johnson, Thomas",Maryland,Washington,"September 19, 1791","January 16, 1793",associate
+"Paterson, William",New Jersey,Washington,"March 11, 1793","September 9, 1806",associate
+"Chase, Samuel",Maryland,Washington,"February 4, 1796","June 19, 1811",associate
+"Washington, Bushrod",Virginia,"Adams, John","November 9, 1798","November 26, 1829",associate
+"Moore, Alfred",North Carolina,"Adams, John","April 21, 1800","January 26, 1804",associate
+"Johnson, William",South Carolina,Jefferson,"May 7, 1804","August 4, 1834",associate
+"Livingston, Brockholst",New York,Jefferson,"January 20, 1807","March 18, 1823",associate
+"Todd, Thomas",Kentucky,Jefferson,"May 4, 1807","February 7, 1826",associate
+"Duvall, Gabriel",Maryland,Madison,"November 23, 1811","January 14, 1835",associate
+"Story, Joseph",Massachusetts,Madison,"February 3, 1812","September 10, 1845",associate
+"Thompson, Smith",New York,Monroe,"September 1, 1823","December 18, 1843",associate
+"Trimble, Robert",Kentucky,"Adams, J. Q.","June 16, 1826","August 25, 1828",associate
+"McLean, John",Ohio,Jackson,"March 12, 1829","April 4, 1861",associate
+"Baldwin, Henry",Pennsylvania,Jackson,"January 18, 1830","April 21, 1844",associate
+"Wayne, James Moore",Georgia,Jackson,"January 14, 1835","July 5, 1867",associate
+"Barbour, Philip Pendleton",Virginia,Jackson,"May 12, 1836","February 25, 1841",associate
+"Catron, John",Tennessee,Jackson,"May 1, 1837","May 30, 1865",associate
+"McKinley, John",Alabama,Van Buren,"January 9, 1838","July 19, 1852",associate
+"Daniel, Peter Vivian",Virginia,Van Buren,"January 10, 1842","May 31, 1860",associate
+"Nelson, Samuel",New York,Tyler,"February 27, 1845","November 28, 1872",associate
+"Woodbury, Levi",New Hampshire,Polk,"September 23, 1845","September 4, 1851",associate
+"Grier, Robert Cooper",Pennsylvania,Polk,"August 10, 1846","January 31, 1870",associate
+"Curtis, Benjamin Robbins",Massachusetts,Fillmore,"October 10, 1851","September 30, 1857",associate
+"Campbell, John Archibald",Alabama,Pierce,"April 11, 1853","April 30, 1861",associate
+"Clifford, Nathan",Maine,Buchanan,"January 21, 1858","July 25, 1881",associate
+"Swayne, Noah Haynes",Ohio,Lincoln,"January 27, 1862","January 24, 1881",associate
+"Miller, Samuel Freeman",Iowa,Lincoln,"July 21, 1862","October 13, 1890",associate
+"Davis, David",Illinois,Lincoln,"December 10, 1862","March 4, 1877",associate
+"Field, Stephen Johnson",California,Lincoln,"May 20, 1863","December 1, 1897",associate
+"Strong, William",Pennsylvania,Grant,"March 14, 1870","December 14, 1880",associate
+"Bradley, Joseph P.",New Jersey,Grant,"March 23, 1870","January 22, 1892",associate
+"Hunt, Ward",New York,Grant,"January 9, 1873","January 27, 1882",associate
+"Harlan, John Marshall",Kentucky,Hayes,"December 10, 1877","October 14, 1911",associate
+"Woods, William Burnham",Georgia,Hayes,"January 5, 1881","May 14, 1887",associate
+"Matthews, Stanley",Ohio,Garfield,"May 17, 1881","March 22, 1889",associate
+"Gray, Horace",Massachusetts,Arthur,"January 9, 1882","September 15, 1902",associate
+"Blatchford, Samuel",New York,Arthur,"April 3, 1882","July 7, 1893",associate
+"Lamar, Lucius Quintus C.",Mississippi,Cleveland,"January 18, 1888","January 23, 1893",associate
+"Brewer, David Josiah",Kansas,Harrison,"January 6, 1890","March 28, 1910",associate
+"Brown, Henry Billings",Michigan,Harrison,"January 5, 1891","May 28, 1906",associate
+"Shiras, George, Jr.",Pennsylvania,Harrison,"October 10, 1892","February 23, 1903",associate
+"Jackson, Howell Edmunds",Tennessee,Harrison,"March 4, 1893","August 8, 1895",associate
+"White, Edward Douglass",Louisiana,Cleveland,"March 12, 1894","December 18, 1910",associate
+"Peckham, Rufus Wheeler",New York,Cleveland,"January 6, 1896","October 24, 1909",associate
+"McKenna, Joseph",California,McKinley,"January 26, 1898","January 5, 1925",associate
+"Holmes, Oliver Wendell",Massachusetts,"Roosevelt, T.","December 8, 1902","January 12, 1932",associate
+"Day, William Rufus",Ohio,"Roosevelt, T.","March 2, 1903","November 13, 1922",associate
+"Moody, William Henry",Massachusetts,"Roosevelt, T.","December 17, 1906","November 20, 1910",associate
+"Lurton, Horace Harmon",Tennessee,Taft,"January 3, 1910","July 12, 1914",associate
+"Hughes, Charles Evans",New York,Taft,"October 10, 1910","June 10, 1916",associate
+"Van Devanter, Willis",Wyoming,Taft,"January 3, 1911","June 2, 1937",associate
+"Lamar, Joseph Rucker",Georgia,Taft,"January 3, 1911","January 2, 1916",associate
+"Pitney, Mahlon",New Jersey,Taft,"March 18, 1912","December 31, 1922",associate
+"McReynolds, James Clark",Tennessee,Wilson,"October 12, 1914","January 31, 1941",associate
+"Brandeis, Louis Dembitz",Massachusetts,Wilson,"June 5, 1916","February 13, 1939",associate
+"Clarke, John Hessin",Ohio,Wilson,"October 9, 1916","September 18, 1922",associate
+"Sutherland, George",Utah,Harding,"October 2, 1922","January 17, 1938",associate
+"Butler, Pierce",Minnesota,Harding,"January 2, 1923","November 16, 1939",associate
+"Sanford, Edward Terry",Tennessee,Harding,"February 19, 1923","March 8, 1930",associate
+"Stone, Harlan Fiske",New York,Coolidge,"March 2, 1925","July 2, 1941",associate
+"Roberts, Owen Josephus",Pennsylvania,Hoover,"June 2, 1930","July 31, 1945",associate
+"Cardozo, Benjamin Nathan",New York,Hoover,"March 14, 1932","July 9, 1938",associate
+"Black, Hugo Lafayette",Alabama,"Roosevelt, F.","August 19, 1937","September 17, 1971",associate
+"Reed, Stanley Forman",Kentucky,"Roosevelt, F.","January 31, 1938","February 25, 1957",associate
+"Frankfurter, Felix",Massachusetts,"Roosevelt, F.","January 30, 1939","August 28, 1962",associate
+"Douglas, William Orville",Connecticut,"Roosevelt, F.","April 17, 1939","November 12, 1975",associate
+"Murphy, Frank",Michigan,"Roosevelt, F.","February 5, 1940","July 19, 1949",associate
+"Byrnes, James Francis",South Carolina,"Roosevelt, F.","July 8, 1941","October 3, 1942",associate
+"Jackson, Robert Houghwout",New York,"Roosevelt, F.","July 11, 1941","October 9, 1954",associate
+"Rutledge, Wiley Blount",Iowa,"Roosevelt, F.","February 15, 1943","September 10, 1949",associate
+"Burton, Harold Hitz",Ohio,Truman,"October 1, 1945","October 13, 1958",associate
+"Clark, Tom Campbell",Texas,Truman,"August 24, 1949","June 12, 1967",associate
+"Minton, Sherman",Indiana,Truman,"October 12, 1949","October 15, 1956",associate
+"Harlan, John Marshall",New York,Eisenhower,"March 28, 1955","September 23, 1971",associate
+"Brennan, William J., Jr.",New Jersey,Eisenhower,"October 16, 1956","July 20, 1990",associate
+"Whittaker, Charles Evans",Missouri,Eisenhower,"March 25, 1957","March 31, 1962",associate
+"Stewart, Potter",Ohio,Eisenhower,"October 14, 1958","July 3, 1981",associate
+"White, Byron Raymond",Colorado,Kennedy,"April 16, 1962","June 28, 1993",associate
+"Goldberg, Arthur Joseph",Illinois,Kennedy,"October 1, 1962","July 25, 1965",associate
+"Fortas, Abe",Tennessee,"Johnson, L.","October 4, 1965","May 14, 1969",associate
+"Marshall, Thurgood",New York,"Johnson, L.","October 2, 1967","October 1, 1991",associate
+"Blackmun, Harry A.",Minnesota,Nixon,"June 9, 1970","August 3, 1994",associate
+"Powell, Lewis F., Jr.",Virginia,Nixon,"January 7, 1972","June 26, 1987",associate
+"Rehnquist, William H.",Arizona,Nixon,"January 7, 1972","September 26, 1986",associate
+"Stevens, John Paul",Illinois,Ford,"December 19, 1975","June 29, 2010",associate
+"O'Connor, Sandra Day",Arizona,Reagan,"September 25, 1981","January 31, 2006",associate
+"Scalia, Antonin",Virginia,Reagan,"September 26, 1986","February 13, 2016",associate
+"Kennedy, Anthony M.",California,Reagan,"February 18, 1988","July 31, 2018",associate
+"Souter, David H.",New Hampshire,"Bush, G. H. W.","October 9, 1990","June 29, 2009",associate
+"Thomas, Clarence",Georgia,"Bush, G. H. W.","October 23, 1991",,associate
+"Ginsburg, Ruth Bader",New York,Clinton,"August 10, 1993","September 18, 2020",associate
+"Breyer, Stephen G.",Massachusetts,Clinton,"August 3, 1994","June 30, 2022",associate
+"Alito, Samuel A., Jr.",New Jersey,"Bush, G. W.","January 31, 2006",,associate
+"Sotomayor, Sonia",New York,Obama,"August 8, 2009",,associate
+"Kagan, Elena",Massachusetts,Obama,"August 7, 2010",,associate
+"Gorsuch, Neil M.",Colorado,Trump,"April 10, 2017",,associate
+"Kavanaugh, Brett M.",Maryland,Trump,"October 6, 2018",,associate
+"Barrett, Amy Coney",Indiana,Trump,"October 27, 2020",,associate
+"Jackson, Ketanji Brown","Washington, D.C.",Biden,"June 30, 2022",,associate
+"Jay, John",New York,Washington,"October 19, 1789","June 29, 1795",chief
+"Rutledge, John",South Carolina,Washington,"August 12, 1795","December 15, 1795",chief
+"Ellsworth, Oliver",Connecticut,Washington,"March 8, 1796","December 15, 1800",chief
+"Marshall, John",Virginia,"Adams, John","February 4, 1801","July 6, 1835",chief
+"Taney, Roger Brooke",Maryland,Jackson,"March 28, 1836","October 12, 1864",chief
+"Chase, Salmon Portland",Ohio,Lincoln,"December 15, 1864","May 7, 1873",chief
+"Waite, Morrison Remick",Ohio,Grant,"March 4, 1874","March 23, 1888",chief
+"Fuller, Melville Weston",Illinois,Cleveland,"October 8, 1888","July 4, 1910",chief
+"White, Edward Douglass",Louisiana,Taft,"December 19, 1910","May 19, 1921",chief
+"Taft, William Howard",Connecticut,Harding,"July 11, 1921","February 3, 1930",chief
+"Hughes, Charles Evans",New York,Hoover,"February 24, 1930","June 30, 1941",chief
+"Stone, Harlan Fiske",New York,"Roosevelt, F.","July 3, 1941","April 22, 1946",chief
+"Vinson, Fred Moore",Kentucky,Truman,"June 24, 1946","September 8, 1953",chief
+"Warren, Earl",California,Eisenhower,"October 5, 1953","June 23, 1969",chief
+"Burger, Warren Earl",Virginia,Nixon,"June 23, 1969","September 26, 1986",chief
+"Rehnquist, William H.",Virginia,Reagan,"September 26, 1986","September 3, 2005",chief
+"Roberts, John G., Jr.",Maryland,"Bush, G. W.","September 29, 2005",,chief
