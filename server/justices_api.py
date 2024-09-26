@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 import pandas as pd
 
 class JusticesData:
@@ -25,9 +26,10 @@ class JusticesData:
 
 
 app = Flask(__name__)
+CORS(app)
 data = JusticesData()
-filtered = data.get_justices_at_date("January 1, 1800")
-print(filtered)
+# filtered = data.get_justices_at_date("January 1, 1800")
+# print(filtered)
 
 @app.route("/get_justices_at_date")
 def get_justices_at_date():
