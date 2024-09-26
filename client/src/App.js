@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
-function DateSlider({ displayDate, sliderMin, sliderMax, sliderValue, handleSliderChange }) {
+function DateSlider({ displayDate, sliderMin, sliderMax, sliderValue, handleSliderChange, handleSliderRelease }) {
   return (
     <div className='slider-panel'>
       <p className='date-label'> {displayDate} </p>
@@ -10,7 +10,8 @@ function DateSlider({ displayDate, sliderMin, sliderMax, sliderValue, handleSlid
         min={sliderMin} 
         max={sliderMax}
         value={sliderValue} // Set the slider's initial value
-        onChange={handleSliderChange} 
+        onChange={handleSliderChange}
+        onMouseUp={handleSliderRelease}
       />
     </div>
   );
@@ -100,6 +101,7 @@ function App() {
     fetchInitialJustices();
   }, []);
 
+  // For updating the slider display date while sliding
   const handleSliderChange = async (event) => {
     const newSliderValue = event.target.value;
     setSliderValue(newSliderValue);
@@ -107,6 +109,14 @@ function App() {
     const newSliderDate = sliderValueToDate(newSliderValue);
     const formattedDateStr = dateToString(newSliderDate);
     setSliderDisplayDate(formattedDateStr);
+  };
+
+  // For querying the API on slider mouse release
+  const handleSliderRelease = async (event) => {
+    const newSliderValue = event.target.value;
+    
+    const newSliderDate = sliderValueToDate(newSliderValue);
+    const formattedDateStr = dateToString(newSliderDate);
 
     // Update the justices data with a query to API
     setLoading(true); // Start loading
@@ -126,7 +136,7 @@ function App() {
             <ul className='justice-list'>
               {justices.length > 0 ? (
                 justices.map(justice => (
-                  <li key={justice.date_service_start}>
+                  <li className='justice-list-item' key={justice.date_service_start}>
                     {justice.name}
                   </li>
                 ))
@@ -141,7 +151,8 @@ function App() {
           sliderMin={SLIDER_MIN_VALUE} 
           sliderMax={SLIDER_MAX_VALUE} 
           sliderValue={sliderValue} 
-          handleSliderChange={handleSliderChange} 
+          handleSliderChange={handleSliderChange}
+          handleSliderRelease={handleSliderRelease}
         />
       </header>
     </div>
