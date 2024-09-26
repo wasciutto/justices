@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_cors import CORS
 import pandas as pd
 
@@ -33,4 +33,5 @@ data = JusticesData()
 
 @app.route("/get_justices_at_date")
 def get_justices_at_date():
-    return data.get_justices_at_date("January 1, 1800")
+    app.logger.info(f"Processing date: {request.args.get('date')}")
+    return data.get_justices_at_date(request.args.get('date'))
