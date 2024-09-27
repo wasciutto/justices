@@ -37,12 +37,16 @@
   }
 }
 
+.chief-justice-bin {
+  background-color: #d68484 !important;
+}
+
 .justice-list {
   list-style-type: none; /* Remove bullet points */
   padding: 0;
 }
 
-.justice-list-item {
+.justice-bin {
   border: 1px solid #ccc; /* Add border around each item */
   padding: 10px;
   margin-bottom: 10px;
