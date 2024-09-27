@@ -144,7 +144,7 @@ function App() {
             <ul className='justice-list'>
               {justices.length > 0 ? (
                 justices.map(justice => (
-                  <li className='justice-bin' key={justice.date_service_start}>
+                  <li className='justice-bin' key={justice.id}>
                     {justice.name}
                   </li>
                 ))
