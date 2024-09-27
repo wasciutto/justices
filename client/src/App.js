@@ -134,23 +134,32 @@ function App() {
       <header className="App-header">
         <div className='justice-panel'>
           <h1> Justices </h1>
-          <h2> Chief Justice </h2>
-          <p className='justice-bin chief-justice-bin'> {chief.name} </p>
-          
+            {
+              // Only show chief justice section if data recieved
+              chief !== null &&
+              <div>
+                <h2> Chief Justice </h2>
+                <p className='justice-bin chief-justice-bin'> {chief.name} </p>
+              </div>
+            }
           <h2> Associate Justices </h2>
-          {loading ? (
-            <p>Loading justices...</p> // Show loading message
-          ) : (
-            <ul className='justice-list'>
-              {justices.length > 0 ? (
-                justices.map(justice => (
-                  <li className='justice-bin' key={justice.id}>
-                    {justice.name}
-                  </li>
-                ))
+            {
+              loading ? (
+                // Show loading message
+                <p>Loading justices...</p>
               ) : (
+                // Show Justices
+                <ul className='justice-list'>
+                  {justices.length > 0 ? (
+                    justices.map(justice => (
+                      <li className='justice-bin' key={justice.id}>
+                        {justice.name}
+                      </li>
+                  ))
+              ) : (
+                // Show None Found
                 <li>No justices found for this date.</li>
-              )}
+            )}
             </ul>
           )}
         </div>
