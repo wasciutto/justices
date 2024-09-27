@@ -12,6 +12,7 @@ function DateSlider({ displayDate, sliderMin, sliderMax, sliderValue, handleSlid
         value={sliderValue} // Set the slider's initial value
         onChange={handleSliderChange}
         onMouseUp={handleSliderRelease}
+        onTouchEnd={handleSliderRelease}
       />
     </div>
   );
@@ -88,13 +89,15 @@ function App() {
   const [sliderDisplayDate, setSliderDisplayDate] = useState(DEFAULT_DATE_STR);
   const [sliderValue, setSliderValue] = useState(SLIDER_DEFAULT_VALUE); // Set initial slider value
   const [justices, setJustices] = useState([]); // Initialize as an empty array
+  const [chief, setChief] = useState([])
   const [loading, setLoading] = useState(true); // Initialize loading state
 
   useEffect(() => {
     const fetchInitialJustices = async () => {
       setLoading(true); // Start loading
       const justicesData = await fetchJustices(DEFAULT_DATE_STR);
-      setJustices(justicesData || []); // Update justices state
+      setJustices(justicesData.associates || []); // Update justices state
+      setChief(justicesData.chief)
       setLoading(false); // Finished loading
     };
 
@@ -120,8 +123,9 @@ function App() {
 
     // Update the justices data with a query to API
     setLoading(true); // Start loading
-    const justices_data = await fetchJustices(formattedDateStr);
-    setJustices(justices_data || []); // Update justices state
+    const justicesData = await fetchJustices(formattedDateStr);
+    setJustices(justicesData.associates || []); // Update justices state
+    setChief(justicesData.chief)
     setLoading(false); // Finished loading
   };
 
@@ -130,13 +134,17 @@ function App() {
       <header className="App-header">
         <div className='justice-panel'>
           <h1> Justices </h1>
+          <h2> Chief Justice </h2>
+          <p className='justice-bin chief-justice-bin'> {chief.name} </p>
+          
+          <h2> Associate Justices </h2>
           {loading ? (
             <p>Loading justices...</p> // Show loading message
           ) : (
             <ul className='justice-list'>
               {justices.length > 0 ? (
                 justices.map(justice => (
-                  <li className='justice-list-item' key={justice.date_service_start}>
+                  <li className='justice-bin' key={justice.date_service_start}>
                     {justice.name}
                   </li>
                 ))
