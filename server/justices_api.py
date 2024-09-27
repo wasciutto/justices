@@ -21,14 +21,34 @@ class JusticesData:
     def get_justices_at_date(self, date):
         date = pd.to_datetime(date)
 
+        out_df = {}  # Initialize the output dictionary
+
+        # Replace missing `date_service_end` with today's date
+        today = pd.Timestamp('now')
+        self.df.loc[self.df['date_service_end'].isna(), 'date_service_end'] = today
+        
+        # Filter justices serving on the given date
         filtered_df = self.df[(self.df['date_service_start'] <= date) & (self.df['date_service_end'] >= date)]
-        return filtered_df.to_json(orient="records")
+
+        # Slice out the chief justice
+        chief_df = filtered_df[filtered_df['rank'] == 'chief']
+        chief = chief_df.iloc[0].to_dict() if not chief_df.empty else None
+        
+        # Set the rest as associate justices
+        associates_df = filtered_df[filtered_df['rank'] != 'chief']
+        associates = associates_df.assign(rank='associate').to_dict(orient="records")
+        
+        # Assign to output dictionary
+        out_df['chief'] = chief
+        out_df['associates'] = associates
+        
+        return out_df
 
 
 app = Flask(__name__)
 CORS(app)
 data = JusticesData()
-# filtered = data.get_justices_at_date("January 1, 1800")
+# filtered = data.get_justices_at_date("September 1, 2024")
 # print(filtered)
 
 @app.route("/get_justices_at_date")
